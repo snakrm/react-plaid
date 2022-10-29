@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+overflow-x: hidden;
+
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.head{
+  padding-top:auto;
+}
+.social{
+  margin-top:30px;
+  margin-right: 50px;
+}
+.logo{
+  margin-left: 50px;
+}
+.developers{
+  padding-bottom:60px ;
+}
+.business{
+  padding-bottom:60px ;
+  padding-top:10px ;
+}
+li:hover{
+ color:aqua;
+ text-decoration: none;
+}
+
+.btn1 {
+  display: inline-block;
+  border-radius: 4px; 
+  transition: all 0.5s;
+  cursor: pointer;
+  }
+
+
+ .btn1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  } 
+  
+  .btn1 span:after {
+    content: '\003E';
+    position: absolute;
+    opacity: 1;
+    color:black;
+    top: -4px;
+    right: -45%;
+    font-size:20px;
+    transition: 0.5s;
+  } 
+  
+
+  .btn2 {
+    display: inline-block;
+    border-radius: 4px; 
+    transition: all 0.5s;
+    cursor: pointer;
+    }
+  
+  .btn2:hover span:after {
+    opacity: 1;
+    right: -40px;
+    
+  }
+
+  .btn2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  } 
+  
+  .btn2 span:after {
+    content: '\003E';
+    position: absolute;
+    padding-left: 25px;
+    opacity: 1;
+    color:whitesmoke;
+    top: -4px;
+    right: -25%;
+    font-size:20px;
+    transition: 0.5s;
+  } 
+  
+
+  
+  .btn1:hover span:after {
+    opacity: 1;
+    right: -20px;
+    
+  }
+
+  
